@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZipGames - Juegos Gratis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZipGames</h1>
+    <p>Tu zona gamer para descargar videojuegos gratis</p>
+    <a href="index.html" class="home-button">🏠 Inicio</a> <!-- Botón de inicio -->
+  </header>
+
+  <!-- Barra de búsqueda -->
+  <section class="search-section">
+    <input type="text" id="searchInput" placeholder="Buscar juegos..." />
+    <button onclick="buscarJuego()">🔍 Buscar</button>
+  </section>
+
+  <!-- Grid de juegos -->
+  <main>
+    <h2>Últimos Juegos Subidos</h2>
+    <div class="games-grid">
+      <div class="game-card" data-title="Dark Souls 2">
+        <img src="img/darksouls2.jpg" alt="Dark Souls 2" />
+        <h3>Dark Souls 2</h3>
+      </div>
+      <div class="game-card" data-title="Dark Souls 1 Remastered">
+        <img src="img/darksouls1.jpg" alt="Dark Souls 1 Remastered" />
+        <h3>Dark Souls 1 Remastered</h3>
+      </div>
+      <div class="game-card" data-title="Devil May Cry 5">
+        <img src="img/dmc5.jpg" alt="Devil May Cry 5" />
+        <h3>Devil May Cry 5</h3>
+      </div>
+      <div class="game-card" data-title="Outlast 2">
+        <img src="img/outlast2.webp" alt="Outlast 2" />
+        <h3>Outlast 2</h3>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZipGames. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
