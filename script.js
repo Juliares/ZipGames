@@ -34,6 +34,10 @@ document.querySelectorAll('.game-card').forEach(card => {
       case 'outlast 2':
         url = 'outlast_2.html';
         break;
+
+      case 'elden ring deluxe edition':
+        url = 'elden_ring.html';
+        break;
     }
     window.location.href = url;
   });
