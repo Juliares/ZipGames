@@ -38,6 +38,10 @@ document.querySelectorAll('.game-card').forEach(card => {
       case 'elden ring deluxe edition':
         url = 'elden_ring.html';
         break;
+
+      case 'Halo 2':
+        url = 'halo_2.html';
+        break;
     }
     window.location.href = url;
   });
