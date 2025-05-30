@@ -39,7 +39,7 @@ document.querySelectorAll('.game-card').forEach(card => {
         url = 'elden_ring.html';
         break;
 
-      case 'Halo 2':
+      case 'halo 2':
         url = 'halo_2.html';
         break;
     }
