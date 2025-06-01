@@ -50,6 +50,10 @@ document.querySelectorAll('.game-card').forEach(card => {
        case 'call of duty modern warfare 2':
         url = 'codmw2.html';
         break;
+
+        case 'stardew valley':
+        url = 'sv.html';
+        break;
     }
     window.location.href = url;
   });
