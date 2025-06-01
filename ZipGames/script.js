@@ -46,6 +46,11 @@ document.querySelectorAll('.game-card').forEach(card => {
       case 'the last of us parte 2':
         url = 'tlou2.html';
         break;
+
+      case 'call of duty modern warfare 2':
+        url = 'codmw2.html';
+        break;
+        
     }
     window.location.href = url;
   });
