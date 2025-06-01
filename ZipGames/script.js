@@ -42,6 +42,10 @@ document.querySelectorAll('.game-card').forEach(card => {
       case 'halo 2':
         url = 'halo_2.html';
         break;
+
+      case 'the last of us parte 2':
+        url = 'tlou2.html';
+        break;
     }
     window.location.href = url;
   });
